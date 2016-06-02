@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/jquery-1.12.4.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="js/scripts.js"></script>
+    <title>date</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <form class="blank">
+          <div class="form-group">
+            <label for="name">What's your name</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="born">date of birth</label>
+            <input type="date" class="from-control" id="born">
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="pref" value="male">
+              male
+            </label>
+            <label>
+              <input type="radio" name="pref" value="female">
+              female
+            </label>
+          </div>
+          <select class="form-control" id="local">
+            <option value="eastCoast">East Coast</option>
+            <option value="westCoast">West Coast</option>
+            <option value="canada">Canada</option>
+            <option value="international">International</option>
+          </select>
+          <button type="submit" class="btn">Match</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
